@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+main{
+    background: #d6d6cc;
+    display: flex;
+    align-items: center;
+}
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    gap: 100px;
+    margin-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.example-parent {
+    border: 2px solid #DFA612;
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .example-origin {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .example-draggable {
+    background-color: #4AAE9B;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .example-dropzone {
+    background-color: #6DB65B;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+  }
